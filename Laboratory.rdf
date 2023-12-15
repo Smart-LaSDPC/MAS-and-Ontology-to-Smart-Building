@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Laboratory/"
+     xml:base="http://www.semanticweb.org/Laboratory/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Laboratory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#airCondInLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Laboratory#airCondInLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Air_conditioner"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#bulbInLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Laboratory#bulbInLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Bulb"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#doorInLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Laboratory#doorInLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Door"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#lightSensorInLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Laboratory#lightSensorInLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Light_Sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#motionSensorInLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Laboratory#motionSensorInLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Motion_Sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#tempSensorInLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Laboratory#tempSensorInLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Temperature_Sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#windowInLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Laboratory#windowInLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Window"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#airCondState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#airCondState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Air_conditioner"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#bulbState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#bulbState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Bulb"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#doorState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#doorState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Door"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#lightSensorState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#lightSensorState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Light_Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#lightValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#lightValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Light_Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#motionSensorState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#motionSensorState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Motion_Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#motionValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#motionValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Motion_Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#tempSensorState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#tempSensorState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Temperature_Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#tempValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#tempValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Temperature_Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#windowState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Laboratory#windowState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Laboratory#Window"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Air_conditioner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Air_conditioner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Bulb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Bulb"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Door -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Door"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Laboratory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Laboratory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Light_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Light_Sensor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Motion_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Motion_Sensor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Temperature_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Temperature_Sensor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Laboratory#Window -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Laboratory#Window"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Air_conditioner"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Bulb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Door"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Laboratory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Light_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Motion_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Temperature_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Laboratory#Window"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
