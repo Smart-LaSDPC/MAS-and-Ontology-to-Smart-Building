@@ -1,4 +1,4 @@
-# Inference Rulers to Smart Building (LaSDPC)
+# Inference Rulers for Smart Building (LaSDPC)
 This code handles sensor data and creates instances in the ontology within the laboratory domain. Subsequently, four inference rules are applied to make the environment intelligent and automated:
 
 ### \#1 - Turn off the light
