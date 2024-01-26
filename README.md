@@ -1,5 +1,4 @@
-# MAS-and-Ontology-to-Smart-Building
-
+# Inference Rulers to Smart Building (LaSDPC)
 This code handles sensor data and creates instances in the ontology within the laboratory domain. Subsequently, four inference rules are applied to make the environment intelligent and automated:
 
 ### \#1 - Turn off the light
@@ -8,7 +7,7 @@ This rule is activated when it is detected that the light is on in the environme
 
 \- `Bulb("ON") AND MotionValue("0") -> Bulb("OFF")`
 
-\* For MotionValue, "0" corresponds to no presence, and "1" to presence
+\* For MotionValue, "0" corresponds to no presence, and "1" to the presence
   
 ### \#2 - Turn on the air conditioning
 
